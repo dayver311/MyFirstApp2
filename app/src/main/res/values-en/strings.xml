@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="main_text">My First App</string>
+    <string name="student_info">Student: Shakuro Nikita\nGroup 3.2ISiP2</string>
+</resources>

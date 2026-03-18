@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="main_text">МоёПервоеПриложение</string>
+    <string name="student_info">Студент: Шакуро Никита\nГруппа: 3.2ИСиП2</string>
+</resources>
