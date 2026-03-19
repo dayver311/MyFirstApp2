@@ -40,6 +40,7 @@ android {
 
 }
 
+
 dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
@@ -49,4 +50,10 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    // Lifecycle и ViewModel
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0")
+    // LiveData
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.10.0")
+    // Для viewModels delegation
+    implementation("androidx.activity:activity-ktx:1.13.0")
 }
