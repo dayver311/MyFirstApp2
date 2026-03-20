@@ -36,7 +36,7 @@
         app:layout_constraintEnd_toStartOf="@id/menu"
         app:layout_constraintTop_toTopOf="@id/avatar"
         app:layout_constraintBottom_toTopOf="@id/published"
-        android:text="Стук в двигателе. Уиверситет автомобильной техники" />
+        android:text="Стук в двигателе. Университет автомобильной техники" />
 
 
     <TextView
@@ -93,7 +93,7 @@
             android:textSize="14sp"
             android:textStyle="bold"
             android:textColor="@color/purple_500"
-            android:text="Стук в двигателе. Университет автомобильной техники" />
+            android:text="Университет автомобильной техники" />
 
         <TextView
             android:id="@+id/link_url"

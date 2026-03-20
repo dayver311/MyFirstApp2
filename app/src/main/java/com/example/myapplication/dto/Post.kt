@@ -3,6 +3,7 @@ package com.example.myapplication.dto
 data class Post(
     val id: Long,
     val author: String,
+    val authorId: Long = 0,  // добавим для идентификации автора
     val content: String,
     val published: String,
     val likedByMe: Boolean = false,
@@ -10,3 +11,5 @@ data class Post(
     val shares: Int = 0,
     val views: Int = 0
 )
+
+
