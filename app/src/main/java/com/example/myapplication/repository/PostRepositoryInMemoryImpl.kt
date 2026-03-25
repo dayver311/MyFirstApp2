@@ -27,7 +27,8 @@ class PostRepositoryInMemoryImpl : PostRepository {
             likedByMe = false,
             likes = 999,
             shares = 25,
-            views = 5700
+            views = 5700,
+            video ="https://yandex.ru/video/preview/9392476220785043419"
         ),
         Post(
             id = 2,
@@ -47,7 +48,8 @@ class PostRepositoryInMemoryImpl : PostRepository {
             likedByMe = false,
             likes = 342,
             shares = 89,
-            views = 2300
+            views = 2300,
+            video = "https://yandex.ru/video/preview/403118729583208223"
         ),
         Post(
             id = 3,
@@ -65,7 +67,8 @@ class PostRepositoryInMemoryImpl : PostRepository {
             likedByMe = false,
             likes = 660,
             shares = 180,
-            views = 5100
+            views = 5100,
+            video = "https://yandex.ru/video/preview/16182668797088773298"
         ),
         Post(
             id = 4,
@@ -83,7 +86,8 @@ class PostRepositoryInMemoryImpl : PostRepository {
             likedByMe = false,
             likes = 5678,
             shares = 1234,
-            views = 45000
+            views = 45000,
+            video = "https://yandex.ru/video/preview/15196423718614314921"
         ),
                 Post(
                 id = 5,
@@ -122,7 +126,8 @@ class PostRepositoryInMemoryImpl : PostRepository {
             likedByMe = false,
             likes = 740,
             shares = 200,
-            views = 6500
+            views = 6500,
+            video = "https://yandex.ru/video/preview/5865818603162269746"
         ),
         Post(
             id = 8,
@@ -140,7 +145,8 @@ class PostRepositoryInMemoryImpl : PostRepository {
             likedByMe = false,
             likes = 860,
             shares = 300,
-            views = 7200
+            views = 7200,
+            video = "https://yandex.ru/video/preview/12799067217578259841"
         ),
         Post(
             id = 9,
@@ -158,7 +164,8 @@ class PostRepositoryInMemoryImpl : PostRepository {
             likedByMe = true,
             likes = 1020,
             shares = 450,
-            views = 8300
+            views = 8300,
+            video = "https://yandex.ru/video/preview/3591510800727816611"
         ),
         Post(
             id = 11,
@@ -175,7 +182,8 @@ class PostRepositoryInMemoryImpl : PostRepository {
             likedByMe = true,
             likes = 980,
             shares = 320,
-            views = 7200
+            views = 7200,
+            video = "https://yandex.ru/video/preview/5156226656272412621"
         ),
         Post(
             id = 12,
@@ -193,7 +201,8 @@ class PostRepositoryInMemoryImpl : PostRepository {
             likedByMe = false,
             likes = 750,
             shares = 175,
-            views = 6800
+            views = 6800,
+            video = "https://yandex.ru/video/preview/9859770662315504688"
         ),
     )
 
